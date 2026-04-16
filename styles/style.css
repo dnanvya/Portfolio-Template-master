@@ -140,20 +140,20 @@ header {
 .hero {
     position: relative;
     display: flex;
-    align-items: flex-end;
-    min-height: 520px;
-    overflow: hidden;
+    min-height: 580px;
 }
 
 .hero-content {
     position: absolute;
+    bottom: 0;
+    left: 0;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    gap: 48px;
-    height: 100%;
+    gap: 32px;
+    padding-bottom: 40px;
     z-index: 1;
 }
+
 
 .hero-links {
     display: flex;
@@ -191,14 +191,14 @@ header {
     flex-shrink: 0;
 }
 
-
 .hero-image img {
     width: 480px;
-    height: 520px;
+    height: 580px;
     object-fit: cover;
     object-position: top;
     display: block;
 }
+
 .skills-section {
     margin: 100px 0;
 }
