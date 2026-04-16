@@ -140,7 +140,8 @@ header {
 .hero {
     position: relative;
     display: flex;
-    min-height: 580px;
+    min-height: 596px;
+    overflow: hidden;
 }
 
 .hero-content {
@@ -153,7 +154,6 @@ header {
     padding-bottom: 40px;
     z-index: 1;
 }
-
 
 .hero-links {
     display: flex;
@@ -187,15 +187,13 @@ header {
 }
 
 .hero-image {
-    margin-left: auto;
-    flex-shrink: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 
 .hero-image img {
-    width: 480px;
-    height: 580px;
-    object-fit: cover;
-    object-position: top;
+    width: 420px;
     display: block;
 }
 
